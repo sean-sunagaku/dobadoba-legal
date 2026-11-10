@@ -60,7 +60,7 @@ PRIVACY = {
             "これらの情報の取り扱いは、Google のポリシーに従います。詳しくは <a href=\"https://policies.google.com/privacy\">Google プライバシーポリシー</a> と <a href=\"https://policies.google.com/technologies/partner-sites\">Google のサービスを使用するサイトやアプリから収集した情報の Google による使用</a> をご覧ください。",
         ]),
         ("4. トラッキングの許可と同意", [
-            "本アプリは初回の起動時に、iOS の機能（App Tracking Transparency）を使って、他社のアプリや Web サイトを横断したトラッキングを許可するかどうかをおたずねします。許可しなくても、ゲームはすべて遊べます。許可しない場合、広告識別子（IDFA）は使われません。",
+            "本アプリは、広告の表示を始める前（最初の 2 ステージをクリアしたあと）に、iOS の機能（App Tracking Transparency）を使って、他社のアプリや Web サイトを横断したトラッキングを許可するかどうかをおたずねします。許可しなくても、ゲームはすべて遊べます。許可しない場合、広告識別子（IDFA）は使われません。",
             "この設定は、iOS の「設定」→「プライバシーとセキュリティ」→「トラッキング」でいつでも変更できます。",
             "欧州経済領域・英国・スイスなど、法令で同意が必要な地域では、広告のためのデータ利用について同意画面を表示します。同意の内容は、本アプリの「せってい」→「こうこくの プライバシーせってい」からいつでも変更できます。",
         ]),
@@ -109,7 +109,7 @@ PRIVACY = {
             "This information is handled under Google’s policies. See the <a href=\"https://policies.google.com/privacy\">Google Privacy Policy</a> and <a href=\"https://policies.google.com/technologies/partner-sites\">How Google uses information from sites or apps that use our services</a>.",
         ]),
         ("4. Tracking permission and consent", [
-            "On first launch, the App uses the iOS App Tracking Transparency feature to ask whether you allow tracking across other companies’ apps and websites. The game is fully playable even if you do not allow it. If you do not allow it, the advertising identifier (IDFA) is not used.",
+            "Before it starts showing ads (after you clear the first two stages), the App uses the iOS App Tracking Transparency feature to ask whether you allow tracking across other companies’ apps and websites. The game is fully playable even if you do not allow it. If you do not allow it, the advertising identifier (IDFA) is not used.",
             "You can change this at any time in iOS Settings → Privacy &amp; Security → Tracking.",
             "In regions where the law requires consent, such as the European Economic Area, the United Kingdom, and Switzerland, the App shows a consent screen for the use of data for advertising. You can change your choices at any time from Settings → Ad privacy settings in the App.",
         ]),
@@ -156,7 +156,7 @@ SUPPORT = {
             "<strong>音が鳴りません。</strong><br>端末の消音スイッチがオンになっていないか、音量が 0 になっていないかを確かめてください。アプリの「せってい」で「おと」がオンになっているかもご確認ください。",
             "<strong>記録を最初からやり直したい。</strong><br>「せってい」→「きろくを けす」で、星と記録を消せます。消した記録は元に戻せません。",
             "<strong>機種変更をしたら記録が消えました。</strong><br>記録は端末の中だけに保存しています。iPhone のバックアップから復元した場合は引き継がれますが、アプリを入れ直しただけでは引き継がれません。",
-            "<strong>広告について。</strong><br>無料で遊べるように、ホーム画面と結果の画面にバナー広告を、ステージの合間にときどき全画面の広告を表示しています。失敗したときは、動画広告を見るとボールを足して続きから遊べます（見なくても遊べます）。",
+            "<strong>広告について。</strong><br>無料で遊べるように、ホーム画面と結果の画面にバナー広告を、ステージの合間にときどき全画面の広告を表示しています（最初の 2 ステージには広告が出ません）。動画広告は、見るかどうかを自分で選べます。失敗したときに見ると、ボールを足して続きから遊べます。星が 3 つに届かなかったときや、ステージの前にときどき出る「ボーナス チャンス」で見ると、ボールが増えた状態で遊べます。見なくても同じように遊べます。",
             "<strong>対応している端末は？</strong><br>iOS 17.0 以降の iPhone に対応しています。",
         ]),
         ("お問い合わせ", [
@@ -178,7 +178,7 @@ SUPPORT = {
             "<strong>There is no sound.</strong><br>Check that the silent switch is off and the volume is not zero. Also check that Sound is turned on in Settings in the App.",
             "<strong>I want to start over.</strong><br>Go to Settings → Reset progress to erase your stars and records. This cannot be undone.",
             "<strong>My records disappeared after changing devices.</strong><br>Records are stored only on the device. They carry over when you restore from an iPhone backup, but not when you simply reinstall the App.",
-            "<strong>About ads.</strong><br>To keep the game free, banner ads appear on the home and result screens, and full-screen ads occasionally appear between stages. When you fail a stage, you can watch a video ad to add balls and continue (this is optional).",
+            "<strong>About ads.</strong><br>To keep the game free, banner ads appear on the home and result screens, and full-screen ads occasionally appear between stages (no ads appear during the first two stages). Video ads are always optional. After a failed stage, you can watch one to add balls and continue. When you earn fewer than 3 stars, or on the “Bonus chance” card that sometimes appears before a stage, you can watch one to play with extra balls.",
             "<strong>Which devices are supported?</strong><br>iPhone with iOS 17.0 or later.",
         ]),
         ("Contact", [
