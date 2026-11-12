@@ -11,13 +11,15 @@ ROOT = Path(__file__).resolve().parent
 DOCS = ROOT / "docs"
 BASE = "https://sean-sunagaku.github.io/dobadoba-legal"
 CONTACT = "sunagaku.dx@gmail.com"
-UPDATED = "2026-11-10"
+UPDATED = "2026-11-12"
+STORE = "https://apps.apple.com/app/id6832887262"
 
 SITE = {
     "ja": {
         "app": "ドバドバボール",
         "tagline": "ゆび1本でねらって、ボールをドバドバ増やすゲーム",
         "home": "トップ",
+        "download": "App Storeでダウンロード",
         "privacy": "プライバシーポリシー",
         "support": "サポート",
         "updated": "最終更新日",
@@ -29,6 +31,7 @@ SITE = {
         "app": "DobaDoba Ball",
         "tagline": "Aim with one finger and multiply the balls",
         "home": "Home",
+        "download": "Download on the App Store",
         "privacy": "Privacy Policy",
         "support": "Support",
         "updated": "Last updated",
@@ -144,7 +147,7 @@ SUPPORT = {
     "ja": [
         ("あそびかた", [
             ("ul", [
-                "画面を押しっぱなしにすると、ノズルからボールが出ます。",
+                "画面に触れて最初の約0.25秒は位置合わせだけを行い、そのまま押し続けるとノズルからボールが出ます。",
                 "押したまま指を左右に動かすと、ノズルが指についてきます。",
                 "「×2」「×3」などのゲートを通ると、ボールが増えます。",
                 "赤い「✕」のゲートを通ると、ボールが消えます。",
@@ -166,7 +169,7 @@ SUPPORT = {
     "en": [
         ("How to play", [
             ("ul", [
-                "Hold the screen and balls pour out of the nozzle.",
+                "Touch to aim first. Hold for about 0.25 seconds and balls start pouring from the nozzle.",
                 "Slide your finger left and right while holding to move the nozzle.",
                 "Balls multiply when they pass through gates such as “×2” and “×3”.",
                 "Balls disappear when they pass through a red “✕” gate.",
@@ -291,6 +294,7 @@ def home(lang: str) -> str:
     body = f"""<h1>{escape(site['app'])}</h1>
 <p>{escape(site['intro'])}</p>
 <div class="links">
+<a href="{STORE}">{escape(site['download'])}</a>
 <a href="{BASE}{prefix}/privacy/">{escape(site['privacy'])}</a>
 <a href="{BASE}{prefix}/support/">{escape(site['support'])}</a>
 </div>"""
